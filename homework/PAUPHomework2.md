@@ -12,7 +12,7 @@ If you suspect certain characters within the dataset are driving or causing disp
 
 ![Primate Bootstrap Tree](../fig/Bootstrap_tree.pdf) 
 
-![Primate Jackknife Tree](../fig/Jackknife_tree.pdf) 
+![Primate Jackknife Tree](../fig/jackknife_tree.pdf) 
 
 
 ## Add, commit, and push your homework by 5 pm on Friday.
