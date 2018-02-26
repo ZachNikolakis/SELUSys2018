@@ -5,15 +5,14 @@
 2. In tree searching, when would you expect the swap algorithm to matter strongly?
 
 3. In your own words, what is a bootstrap analysis? Does it make sense to describe a bootstrap value as the probability that a grouping on a tree is correct?
-
+Bootstrapping is sampling with replacement in order to assess the signal found within the dataset.  It does not make sense to describe a bootstrap value as a probability of a clade being right as this is just an assessment of the given data. Different topologies yielding full support does not mean one is right or wrong.
 4. What might be a situation in which you would want to use the jackknife instead of the bootstrap? 
-
-
+If you suspect certain characters within the dataset are driving or causing disparity in inferred topologies or if characters are linked together. Jackknife samples without replication by taking 50% of the dataset and inferring relationships.
 5. Transfer your trees to your desktop. Use FigTree or IcyTree to view them. Take a screenshot, and save it to the fig folder in the class repository. Below, complete the file path to where you have the file in the fig directory to embed the image of your screen shot. 
 
-![Embed your bootstrap tree here](../fig/your_bootstrap_tree_image) 
+![Embed your bootstrap tree here](../fig/Boostrap_tree.pdf) 
 
-![Embed your jackknife tree here](../fig/your_jackknife_tree_image) 
+![Embed your jackknife tree here](../fig/kackknife_tree.pdf) 
 
 
 ## Add, commit, and push your homework by 5 pm on Friday.
